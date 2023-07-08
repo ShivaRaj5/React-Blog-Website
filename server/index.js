@@ -20,6 +20,8 @@ mongoose.connect(process.env.DATABASE)
 })
 const UsersModel=require("../server/models/users");
 const allPostsModel=require("../server/models/allPosts");
+// const lcsModel=require("../server/models/lcsModel");
+// console.log(lcsModel)
 app.post('/signup',async (req,res)=>{
     const {name,email,phone,age,gender,password,cpassword}=req.body;
     try{
@@ -53,7 +55,7 @@ app.post('/login',async (req,res)=>{
             // console.log(token)
             res.cookie("jwtoken",token,{
                 expires:new Date(Date.now()+500000000),
-                httpOnly:true
+                // httpOnly:true
             })
             
             if(isMatch)
@@ -210,7 +212,6 @@ app.get('/:id/getblog',async (req,res)=>{
         res.send(err);
     }
 })
-
 app.listen(PORT,()=>{
     console.log("Listening to the port 5000")
 })
