@@ -62,7 +62,7 @@ const CreateBlog = () => {
       })
       console.log(res);
       if (res) {
-        alert("Data has been saved")
+        alert("Your blog has been posted successfully!")
         navigate('/')
       }
     } catch (err) {
@@ -105,7 +105,7 @@ const CreateBlog = () => {
               'bullist numlist checklist outdent indent | removeformat | a11ycheck code table help'
           }}
         />
-        <button onClick={sendBlogData} id="blogSubmitBtn">Submit Data</button>
+        <button onClick={sendBlogData} id="blogSubmitBtn">Post Blog</button>
       </form>
     </>
   )

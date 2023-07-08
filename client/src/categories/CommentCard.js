@@ -1,23 +1,24 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import CommentReply from './CommentReply';
 
 const CommentCard = () => {
-    
     const [replyCard, setReplyCard] = useState(false);
     const toggleReplyCard = () => {
         setReplyCard(true);
     }
+    // console.log(localStorage.getItem("jwtoken"))
+    
     return (
         <>
             <div className="commentCardContent">
-                <h4>Shiva Raj</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nulla asperiores enim sed quos</p>
+                <h4>Commented User</h4>
+                <p>Your intelligence and insightful perspectives always leave me inspired and eager to learn more.</p>
             </div>
             <div className="likeReply">
                 <p>Like</p>
                 <p onClick={toggleReplyCard}>Reply</p>
                 {replyCard && <CommentReply />}
-            </div>
+            </div> 
         </>
     )
 }

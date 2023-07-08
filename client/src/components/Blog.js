@@ -16,7 +16,9 @@ const Blog = () => {
         credentials: "include"
       })
       const data = await res.json();
-      // console.log(data)
+      // const token=data.tokens[data.tokens.length-1];
+      // console.log(token.token)
+      // localStorage.setItem("jwtoken",token.token);
       if (!res.status === 200)
         throw new Error(res.error)
     } catch (err) {

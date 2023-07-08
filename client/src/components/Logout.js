@@ -18,6 +18,7 @@ const Logout = () => {
                 alert("Logout unsuccessfull!")
             dispatch({ type: 'USER', payload: false })
             alert("You have been logged out succesfully!")
+            localStorage.removeItem('jwtoken')
             navigate('/')
         } catch (err) {
             navigate('/')

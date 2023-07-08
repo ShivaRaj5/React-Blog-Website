@@ -34,7 +34,7 @@ const PostContent = () => {
                 </div>
                 <div className="asideContent" style={{ width: '320px' }}>
                     <h2 style={{ color: 'black' }}>About iCoder Blog</h2>
-                    <p style={{ lineHeight: '25px' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, provident possimus? Iure nam adipisci quasi quae recusandae maiores ullam reprehenderit eum nihil voluptatum nisi facere consequuntur officia, voluptas rerum at perferendis aliquid esse asperiores sit laudantium repellat. Suscipit perferendis delectus consequuntur corporis laborum numquam maxime deleniti praesentium tempora nulla perspiciatis beatae necessitatibus corrupti, excepturi ipsa sit?</p>
+                    <p style={{ lineHeight: '25px' }}>Welcome to our blog app! We are a vibrant community of writers, readers, and enthusiasts who are passionate about sharing and exploring diverse ideas. Our platform serves as a hub for engaging and thought-provoking content that spans various topics, ranging from technology and science to art and culture. At our core, we believe in the power of storytelling and the impact it can have on individuals and communities.</p>
                     <div className='asideAbout' style={{ marginTop: '20px' }}>
                         <a href="https://www.facebook.com/shiva.raaj.73" target="_blank">
                             <img src={facebook} alt="logo" style={{ width: '25px', height: '25px' }} />

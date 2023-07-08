@@ -30,7 +30,7 @@ const ShowBlog = () => {
                 <hr style={{ margin: '10px 0px' }} />
                 <div id='allContent' dangerouslySetInnerHTML={{ __html: blogData.content }} />
                 <hr style={{ margin: '10px 0px' }} />
-                <LikeCommmentShare />
+                <LikeCommmentShare id={id}/>
                 <hr style={{ margin: '10px 0px' }} />
             </div>
         </>

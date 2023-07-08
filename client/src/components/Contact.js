@@ -8,26 +8,26 @@ const Contact = () => {
         <div className="contactContainer">
           <h1 style={{fontSize:'50px'}}>Feel Free To Contact Us</h1>
           <img src={ContactImg} alt="img" style={{width:'915px',height:'450px',margin:'50px 0px'}}/>
-          <h2 style={{fontWeight:'lighter'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet itaque consequatur repellat vero beatae. Doloremque nulla accusamus porro culpa? Sint illum cumque non perferendis deleniti, odio magnam, alias atque doloremque culpa quam amet cum.</h2>
-          <p style={{margin:'30px 0px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt laborum amet temporibus eligendi voluptatum deleniti aut harum, similique architecto quasi cupiditate minus quibusdam dolore, porro est provident libero ratione iusto laboriosam quaerat. Obcaecati perferendis sequi ipsa ea necessitatibus corrupti veniam quae amet optio. Ipsum aliquid perspiciatis repellendus libero nulla voluptatibus quidem modi, sapiente vel animi necessitatibus.</p>
+          <h2 style={{fontWeight:'lighter'}}>We would love to hear from you! Whether you have questions, suggestions, or just want to say hello, feel free to reach out to us. Our team is dedicated to providing the best experience for our readers and community.</h2>
+          <p style={{margin:'30px 0px'}}>To get in touch, you can use the contact form below. Simply fill in your name, email address, and message, and we will respond to you as soon as possible. We value your feedback and appreciate any thoughts or ideas you have to share. You can also connect with us on social media. Follow us on Twitter, Facebook, and Instagram to stay updated with our latest articles, announcements, and community discussions.</p>
           <div className="contactInfo">
             <div className="addressInfo">
               <h2>Where To Find Us</h2>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>Lorem ipsum dolor sit.</p>
-              <p>Lorem, ipsum dolor.</p>
+              <p>Through Websites</p>
+              <p>Through Social Media</p>
+              <p>Through Community Forums</p>
             </div>
             <div className="addressInfo">
               <h2>Contact Info</h2>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>Lorem ipsum dolor sit.</p>
-              <p>Lorem, ipsum dolor.</p>
+              <p>Email - xyz@gmail.com</p>
+              <p>Phone - 9876543xyz</p>
+              <p>LinkedIn - linkedin.com/in/xyz</p>
             </div>
             <div className="addressInfo">
               <h2>Our Offices</h2>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>Lorem ipsum dolor sit.</p>
-              <p>Lorem, ipsum dolor.</p>
+              <p>Noida, India</p>
+              <p>Delhi, India</p>
+              <p>Bengaluru, India</p>
             </div>
           </div>
           <form method="post">

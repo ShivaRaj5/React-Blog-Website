@@ -34,6 +34,7 @@ const Home = () => {
     const paginate = (pageNumber) => setCurrentPage(pageNumber)
     const [searchTerm, SetSearchTerm] = useState('');
     //check for Navigation Timing API support
+    // console.log(document.cookie=="jwtoken")
     
     return (
         <>

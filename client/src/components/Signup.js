@@ -42,7 +42,7 @@ const Signup = () => {
             });
             // console.log(postData)
             if (postData.status===200) {
-                toast.success('Data has been saved!', {
+                toast.success('You have been registered successfully!', {
                     position: "top-center",
                     autoClose: 1000,
                     hideProgressBar: false,
